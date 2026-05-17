@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: nginx:latest
-  tag: 0.2
+  repository: nginx
+  tag: alpine
   pullPolicy: IfNotPresent
 
 service:
